@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:relationship-check-and-list-contract",
+  "number": 2002,
+  "slug": "relationship-check-and-list-contract",
+  "title": "Relationship Check And List Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines check, batch check, list objects, list users, and explanation behavior.",
+  "body": "## Requirements\n\n- Bind every query to model and store identity.\n- Apply authorization to reverse and list operations.\n- Return consistent pagination and partial-failure behavior.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://research.google/pubs/zanzibar-googles-consistent-global-authorization-system/",
+    "https://openfga.dev/docs"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "rebac",
+    "relationship",
+    "authorization-graph",
+    "zanzibar",
+    "fine-grained-authorization"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:relationships-own-graph-based-resource-authorization",
+    "adr:relationship-consistency-model-is-explicit",
+    "adr:tenant-boundaries-are-enforced-in-the-relationship-model"
+  ]
+}

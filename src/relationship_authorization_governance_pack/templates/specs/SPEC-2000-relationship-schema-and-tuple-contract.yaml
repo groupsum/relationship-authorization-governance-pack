@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:relationship-schema-and-tuple-contract",
+  "number": 2000,
+  "slug": "relationship-schema-and-tuple-contract",
+  "title": "Relationship Schema And Tuple Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines object types, relations, subjects, tuples, and schema versioning.",
+  "body": "## Requirements\n\n- Type all subjects, relations, and objects.\n- Validate tuples against the active model.\n- Version model changes and define migration behavior.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://research.google/pubs/zanzibar-googles-consistent-global-authorization-system/",
+    "https://openfga.dev/docs"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "rebac",
+    "relationship",
+    "authorization-graph",
+    "zanzibar",
+    "fine-grained-authorization"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:relationships-own-graph-based-resource-authorization",
+    "adr:relationship-consistency-model-is-explicit",
+    "adr:tenant-boundaries-are-enforced-in-the-relationship-model"
+  ]
+}

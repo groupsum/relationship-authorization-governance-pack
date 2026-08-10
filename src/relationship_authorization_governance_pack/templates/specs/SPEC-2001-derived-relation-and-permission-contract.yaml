@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:derived-relation-and-permission-contract",
+  "number": 2001,
+  "slug": "derived-relation-and-permission-contract",
+  "title": "Derived Relation And Permission Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines unions, intersections, exclusions, inheritance, and derived permissions.",
+  "body": "## Requirements\n\n- Make derivation explicit in the model.\n- Prevent unintended public or cross-type grants.\n- Test direct and indirect relationships.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://research.google/pubs/zanzibar-googles-consistent-global-authorization-system/",
+    "https://openfga.dev/docs"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "rebac",
+    "relationship",
+    "authorization-graph",
+    "zanzibar",
+    "fine-grained-authorization"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:relationships-own-graph-based-resource-authorization",
+    "adr:relationship-consistency-model-is-explicit",
+    "adr:tenant-boundaries-are-enforced-in-the-relationship-model"
+  ]
+}
